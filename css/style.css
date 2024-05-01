@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: #0f0f0f;
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+header .container ul{
+    display: flex;
+}
+
+header .container li{
+    margin-right: 18px;
+    list-style: none;
+}
+
+header .container li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+main .container{
+    margin-bottom: 36px;
+}
+
+main .container .box_about{
+    display: flex;
+}
+
+.box_about img{
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.box_about .about_text p{
+    margin-top: 32px;
+    color: #7e7e7e;
+}
+
+.title{
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid blue;
+    color: #fff;
+}
+
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    column-gap: 6%;
+    row-gap: 5%;
+    margin-top: 32px;
+}
+
+.product{
+    width: 200px;
+    color: #fff;
+}
+
+.products .product img{
+    width: 100%;
+    height: 200px;
+}
+
+.product h3{
+    margin: 8px 0px;
+}
+
+.product p{
+    margin-bottom: 8px;
+}
+
+.product button{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(37, 128, 37);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
